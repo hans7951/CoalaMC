@@ -16,7 +16,7 @@ int main()
 	getPlayerLocation(&px, &py, &pz);
 	double dir = getPlayerDirection();
 	double radian = dir * M_PI / 180.;
-	int count = 10;
+	int count = 20;
 	int by = py;
 	int bx = px - count * sin(radian);
 	int bz = pz + count * cos(radian);
